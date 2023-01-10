@@ -464,7 +464,7 @@ body.active {
 \*-----------------------------------*/
 
 .service {
-  background-color: var(--snow);
+  background-color: var(--white);
 }
 
 .service .section-text {
