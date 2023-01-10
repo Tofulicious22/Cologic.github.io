@@ -99,6 +99,8 @@ ion-icon {
   display: block;
 }
 
+
+
 a {
   color: inherit;
   text-decoration: none;
@@ -201,7 +203,9 @@ body.active {
 .span {
   content: "";
   border-bottom: 2px solid var(--sefety-orange);
-  border-radius: 50%;
+  border-radius: 20%;
+  width: 30%;
+ 
 }
 
 .section-text {
