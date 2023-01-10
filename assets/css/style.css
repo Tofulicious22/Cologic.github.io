@@ -260,7 +260,7 @@ body.active {
 }
 
 .title-wrapper {
-  display: flex;
+  display: block;
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: flex-end;
@@ -528,7 +528,7 @@ body.active {
 \*-----------------------------------*/
 
 .project {
-  background-color: var(--snow);
+  background-color: var(--white);
 }
 
 .project .section-title {
