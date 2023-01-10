@@ -16,7 +16,7 @@
    */
 
   --sefety-orange_10: hsla(24, 100%, 50%, 0.1);
-  --sefety-orange: hsl(24, 100%, 50%);
+  --sefety-orange: #ff6600;
   --sonic-silver: hsl(220, 1%, 48%);
   --gunmetal_10: hsla(217, 21%, 16%, 0.1);
   --davys-gray: hsl(220, 2%, 31%);
@@ -232,8 +232,8 @@ body.active {
 }
 
 .btn-secondary:is(:hover, :focus) {
-  --bg: var(--sefety-orange);
-  --border-color: var(--sefety-orange);
+  background-color: #ff6600;
+  color: white;
 }
 
 .btn-outline {
@@ -880,6 +880,16 @@ body.active {
 
   .btn-secondary {
     --padding: 14px 32px;
+    position: relative;
+    margin: 0;
+    top: 50%;
+    left: 50% ;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    border-radius: 25px;
+    color: #ff6600;
+    border: 2px solid #ff6600;
+    background-color: #ffffff;
   }
 
   /**
