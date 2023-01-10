@@ -194,9 +194,14 @@ body.active {
   font-size: var(--fs-3);
 }
 
-.section-title .span {
-  display: inline-block;
-  color: var(--sefety-orange);
+.section-title {
+  text-align: center;
+  margin-top: 10%;
+}
+.span {
+  content: "";
+  border-bottom: 2px solid var(--sefety-orange);
+  border-radius: 50%;
 }
 
 .section-text {
