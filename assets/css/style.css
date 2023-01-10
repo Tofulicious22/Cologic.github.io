@@ -99,6 +99,8 @@ ion-icon {
   display: block;
 }
 
+
+
 a {
   color: inherit;
   text-decoration: none;
@@ -201,7 +203,9 @@ body.active {
 .span {
   content: "";
   border-bottom: 2px solid var(--sefety-orange);
-  border-radius: 50%;
+  border-radius: 20%;
+  width: 30%;
+ 
 }
 
 .section-text {
@@ -260,7 +264,7 @@ body.active {
 }
 
 .title-wrapper {
-  display: flex;
+  display: block;
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: flex-end;
@@ -464,7 +468,7 @@ body.active {
 \*-----------------------------------*/
 
 .service {
-  background-color: var(--snow);
+  background-color: var(--white);
 }
 
 .service .section-text {
@@ -528,7 +532,7 @@ body.active {
 \*-----------------------------------*/
 
 .project {
-  background-color: var(--snow);
+  background-color: var(--white);
 }
 
 .project .section-title {
