@@ -451,6 +451,7 @@ body.active {
 
 .hero .section-text {
   margin-block: 25px 40px;
+  text-align: center;
 }
 
 .hero-banner .w-100 {
