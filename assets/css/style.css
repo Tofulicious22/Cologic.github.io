@@ -201,6 +201,10 @@ body.active {
   margin-top: 10%;
 
 }
+
+.li{
+  border: 5px solid red;
+}
 .span {
   /*content: "";
   border-bottom: 2px solid var(--sefety-orange);
@@ -563,9 +567,20 @@ body.active {
   flex-wrap: wrap;
   gap: 60px;
 }
-
+.project-card{
+  display: flex;
+  flex-flow: column;
+  width: 100%;
+  box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17);
+  -webkit-filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
+  filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
+  border-radius: 10px;
+  overflow: hidden;
+  text-decoration: none;
+}
 .project-card .card-banner {
   margin-block-end: 35px;
+
 }
 
 .project-card .img-holder {
@@ -581,6 +596,7 @@ body.active {
   justify-content: space-between;
   align-items: center;
   gap: 25px;
+  padding:10px;
 }
 
 .project-card .h3 {
