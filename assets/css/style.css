@@ -202,11 +202,28 @@ body.active {
 
 }
 .span {
-  content: "";
+  /*content: "";
   border-bottom: 2px solid var(--sefety-orange);
   border-radius: 20%;
   width: 30%;
- 
+  text-decoration: underline;
+  text-decoration-color: var(--sefety-orange);*/
+  
+  position:relative;
+  font-size: 80px;
+  white-space: normal;
+}
+.span::after{
+  content: "";
+  position: absolute;
+  bottom: -15px;
+  left: -7px;
+  height: 10px;
+  width: 100%;
+  z-index: -1;
+  border: solid 8px #9bffb0;
+  border-color: var(--sefety-orange) transparent transparent transparent;
+  border-radius: 100%;
 }
 
 .section-text {
