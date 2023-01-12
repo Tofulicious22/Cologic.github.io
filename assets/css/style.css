@@ -216,6 +216,7 @@ body.active {
   position:relative;
   font-size: 80px;
   white-space: normal;
+  display:inline;
 }
 .span::after{
   content: "";
