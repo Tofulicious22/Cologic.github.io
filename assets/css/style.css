@@ -1024,3 +1024,19 @@ body.active {
     width: calc(50% - 30px);
   }
 }
+@media (max-width: 400px) {
+  .container {
+    margin-left: 50px;
+    display: flex;
+  }
+  .image1 {
+    border-radius: 20px;
+    object-fit: cover;
+  }
+  .btn-secondary:is(:hover, :focus) {
+    background: linear-gradient(133.08deg, #ffa800 28.44%, #ff7a00 96.09%);
+    color: white;
+    display: flex;
+    text-align: center;
+  }
+}
