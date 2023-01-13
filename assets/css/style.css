@@ -21,11 +21,11 @@
   --gunmetal_10: hsla(217, 21%, 16%, 0.1);
   --davys-gray: hsl(220, 2%, 31%);
   --light-gray: hsl(0, 0%, 80%);
-  --gunmetal: #121212 ;
+  --gunmetal: #121212;
   --cultured: hsl(0, 0%, 95%);
-  --black_40: #121212 ;
-  --black_25: #121212 ;
-  --black_15: #121212 ;
+  --black_40: #121212;
+  --black_25: #121212;
+  --black_15: #121212;
   --white: hsl(0, 0%, 100%);
   --snow: hsl(345, 20%, 96%);
 
@@ -98,8 +98,6 @@ button,
 ion-icon {
   display: block;
 }
-
-
 
 a {
   color: inherit;
@@ -199,10 +197,9 @@ body.active {
 .section-title {
   text-align: center;
   margin-top: 10%;
-
 }
 
-.li{
+.li {
   border: 5px solid red;
 }
 .span {
@@ -212,13 +209,13 @@ body.active {
   width: 30%;
   text-decoration: underline;
   text-decoration-color: var(--sefety-orange);*/
-  
-  position:relative;
+
+  position: relative;
   font-size: 80px;
   white-space: normal;
-  display:inline;
+  display: inline;
 }
-.span::after{
+.span::after {
   content: "";
   position: absolute;
   bottom: -15px;
@@ -255,7 +252,7 @@ body.active {
 }
 
 .btn-secondary:is(:hover, :focus) {
-  background-color: #ff6600;
+  background: linear-gradient(133.08deg, #ffa800 28.44%, #ff7a00 96.09%);
   color: white;
 }
 
@@ -568,7 +565,7 @@ body.active {
   flex-wrap: wrap;
   gap: 60px;
 }
-.project-card{
+.project-card {
   display: flex;
   flex-flow: column;
   width: 100%;
@@ -581,7 +578,6 @@ body.active {
 }
 .project-card .card-banner {
   margin-block-end: 35px;
-
 }
 
 .project-card .img-holder {
@@ -597,7 +593,7 @@ body.active {
   justify-content: space-between;
   align-items: center;
   gap: 25px;
-  padding:10px;
+  padding: 10px;
 }
 
 .project-card .h3 {
@@ -920,10 +916,10 @@ body.active {
     position: relative;
     margin: 0;
     top: 50%;
-    left: 50% ;
+    left: 50%;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
-    border-radius: 25px;
+    border-radius: 50px;
     color: #ff6600;
     border: 2px solid #ff6600;
     background-color: #ffffff;
