@@ -501,6 +501,7 @@ body.active {
   padding: 50px 30px;
   border-radius: var(--radius-4);
   box-shadow: var(--shadow-2);
+  position: relative;
 }
 
 .service-card .card-title {
