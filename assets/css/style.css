@@ -857,6 +857,18 @@ body.active {
     align-items: center;
   }
 
+.about-content3 {
+
+  position: flex;
+  width: 1440px;
+  height: 536px;
+  left: 0px;
+  top: 3121px;
+  background: linear-gradient(180deg, #FFA800 0%, #FF7A00 100%);
+  
+
+}
+
   /**
    * PROJECT
    */
