@@ -855,14 +855,6 @@ body.active {
     grid-template-columns: 1fr 1fr;
     align-items: center;
   }
-  
-  .about-content3 {
-    position: absolute;
-    width: 1500px;
-    height: 536px;
-    left: 0px;
-    top: 3121px;
-}
 
   /**
    * PROJECT
