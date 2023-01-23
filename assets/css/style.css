@@ -897,6 +897,17 @@ body.active {
     background: #F9F2E1;
   }
   
+  .works-content2 {
+    border-radius: 25px;
+    margin: auto;
+    width: 1004px;
+    height: 500px;
+    left: 0px;
+    top: 3121px;
+    background: #A5E1D3;
+  }
+  
+  
   /**
    * PROJECT
    */
