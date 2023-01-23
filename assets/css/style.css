@@ -884,6 +884,13 @@ body.active {
     bottom: 25.53%;
   }
 
+  .works-content1 {
+    position: flex;
+    width: 1440px;
+    height: 536px;
+    left: 0px;
+    top: 3121px;
+    background: #F9F2E1;
 
   /**
    * PROJECT
