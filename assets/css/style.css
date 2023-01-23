@@ -859,11 +859,11 @@ body.active {
 
 .about-content3 {
 
-  position: absolute;
+  position: flex;
   width: 1500px;
   height: 536px;
   left: 0px;
-  top: 5000px;
+  top: 5500px;
   background: linear-gradient(180deg, #FFA800 0%, #FF7A00 100%);
   
 
