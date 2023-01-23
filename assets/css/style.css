@@ -219,6 +219,10 @@ body.active {
   padding-left: 50px;
 }
 
+.section-text3 {
+  padding-left: 500px;
+}
+
 .li {
   border: 5px solid red;
 }
