@@ -862,7 +862,7 @@ body.active {
     height: 536px;
     left: 0px;
     top: 3121px;
-    linear-gradient: (180deg, #FFA800 0%, #FF7A00 100%);
+    background-image: linear-gradient(180deg, #FFA800 0%, #FF7A00 100%);
   }
 
   /**
