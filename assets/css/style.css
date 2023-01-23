@@ -855,22 +855,23 @@ body.active {
     grid-template-columns: 1fr 1fr;
     align-items: center;
   }
-  .about-content2
+  
+  .about-content2 {
     position: absolute;
     width: 377.23px;
     height: 524.75px;
     left: 191.78px;
     top: 3250.93px;
+  }
   
-  
-.about-content3 {
+  .about-content3 {
 
-  position: flex;
-  width: 1440px;
-  height: 536px;
-  left: 0px;
-  top: 3121px;
-  background: linear-gradient(180deg, #FFA800 0%, #FF7A00 100%);
+    position: flex;
+    width: 1440px;
+    height: 536px;
+    left: 0px;
+    top: 3121px;
+    background: linear-gradient(180deg, #FFA800 0%, #FF7A00 100%);
   
 
 }
