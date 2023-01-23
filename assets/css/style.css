@@ -883,7 +883,8 @@ body.active {
   }
 
   .works-content1 {
-    position: flex;
+    border-radius: 25px;
+    margin: auto;
     width: 1440px;
     height: 536px;
     left: 0px;
