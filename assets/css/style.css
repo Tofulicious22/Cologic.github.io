@@ -206,8 +206,9 @@ body.active {
 }
 
 .section-title2 {
-  text-align: right;
+  text-align: left;
   margin-top: 10%;
+  padding-left: 60px;
 }
 
 .section-text1 {
