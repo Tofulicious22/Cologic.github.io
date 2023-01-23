@@ -284,12 +284,11 @@ body.active {
 }
 
 .title-wrapper {
-  display: block;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: flex-end;
-  gap: 30px;
-  margin-block-end: 60px;
+  position: absolute;
+  width: 482px;
+  height: 738px;
+  left: 883px;
+  top: 1836px;
 }
 
 .grid-list {
