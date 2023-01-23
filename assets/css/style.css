@@ -204,6 +204,11 @@ body.active {
   margin-top: 10%;
 }
 
+.section-title2 {
+  text-align: right;
+  margin-top: 10%;
+}
+
 .section-text1 {
   font-size: 25px;
 }
