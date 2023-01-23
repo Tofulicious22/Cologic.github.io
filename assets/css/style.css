@@ -214,6 +214,10 @@ body.active {
   font-size: 25px;
 }
 
+.p1 {
+  padding-left: 50px;
+}
+
 .li {
   border: 5px solid red;
 }
