@@ -501,7 +501,6 @@ body.active {
   padding: 50px 30px;
   border-radius: var(--radius-4);
   box-shadow: var(--shadow-2);
-  position: relative;
 }
 
 .service-card .card-title {
@@ -519,7 +518,7 @@ body.active {
 
 .service .shape-1 {
   bottom: 0;
-  left: -80px;
+  left: -50px;
 }
 
 /*-----------------------------------*\
@@ -855,16 +854,6 @@ body.active {
   .about .container {
     grid-template-columns: 1fr 1fr;
     align-items: center;
-  }
-  
-  .about-content3 {
-
-    position: flex;
-    width: 1440px;
-    height: 536px;
-    left: 0px;
-    top: 3121px;
-    background: linear-gradient(180deg, #FFA800 0%, #FF7A00 100%);
   }
 
   /**
