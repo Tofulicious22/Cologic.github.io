@@ -928,6 +928,15 @@ body.active {
     background: #BBD7E9;
   }
   
+  .works-content4 {
+    margin: auto;
+    width: 1520px;
+    height: 536px;
+    left: 0px;
+    top: 3121px;
+    background: #FFFFFF;
+  }
+  
   /**
    * PROJECT
    */
