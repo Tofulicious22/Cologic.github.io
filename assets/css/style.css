@@ -864,6 +864,24 @@ body.active {
     top: 3121px;
     background: linear-gradient(180deg, #FFA800 0%, #FF7A00 100%);
   }
+  
+  .content3 {
+    position: absolute;
+    left: 46.18%;
+    right: 11.81%;
+    top: 70.42%;
+    bottom: 25.53%;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 61px;
+    letter-spacing: 0.015em;
+
+    color: #121212;
+  }
+
 
   /**
    * PROJECT
