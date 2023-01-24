@@ -266,6 +266,10 @@ align-items: center;
 display: flex;
 }
 
+.text-center {
+  text-align: center;
+}
+
 .li {
   border: 5px solid red;
 }
