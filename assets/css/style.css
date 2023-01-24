@@ -211,6 +211,12 @@ body.active {
   padding-left: 550px;
 }
 
+.section-title3 {
+  text-align: left;
+  margin-top: 10%;
+  padding-left: 100px;
+}
+
 .section-text1 {
   font-size: 25px;
 }
