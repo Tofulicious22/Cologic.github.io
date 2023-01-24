@@ -268,7 +268,7 @@ display: flex;
 
 .text-center {
   text-align: center;
-  margin: auto;
+  padding: 230px 0;
 }
 
 .li {
