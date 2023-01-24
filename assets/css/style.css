@@ -602,10 +602,12 @@ display: flex;
 }
 
 .our-works {
-  margin: auto;
-  width: 1000px;
-  height: 536px;
-  background: #ccc;
+   margin: auto;
+   width: 1520px;
+   height: 536px;
+   left: 0px;
+   top: 3121px;
+   background: #ccc;
 }
   
 
