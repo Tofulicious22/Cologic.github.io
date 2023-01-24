@@ -224,6 +224,10 @@ body.active {
   float: left;
 }
 
+.section-title5 {
+  text-align: center;
+}
+
 .section-text1 {
   font-size: 25px;
 }
