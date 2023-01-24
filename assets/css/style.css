@@ -238,17 +238,17 @@ body.active {
 }
 
 .float-left {
-  float:left;
+  float: left;
   background: #DDF;
   height: 100px;
-  width:100px;
+  width: 100px;
 }
 
 .float-right {
-  float:right;
+  float: right;
   background: #4FFFA1;
   height: 100px;
-  width:100px;
+  width: 100px;
 }
 
 .li {
