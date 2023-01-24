@@ -251,6 +251,14 @@ body.active {
   width: 500px;
 }
 
+.wrapper1{
+width:100%;
+float:left;
+background:#ccc;
+align-items: center;
+display: flex;
+}
+
 .li {
   border: 5px solid red;
 }
