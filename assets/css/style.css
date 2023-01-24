@@ -601,6 +601,14 @@ display: flex;
   float: right;
 }
 
+.our-works {
+  margin: auto;
+  width: 1520px;
+  height: 536;
+  background: #ccc;
+}
+  
+
 /*-----------------------------------*\
   #ABOUT
 \*-----------------------------------*/
