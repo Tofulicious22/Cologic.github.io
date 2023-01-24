@@ -239,16 +239,16 @@ body.active {
 
 .float-left {
   float: left;
-  background: #DDF;
-  height: 100px;
-  width: 100px;
+  background: #ffffff;
+  height: 200px;
+  width: 500px;
 }
 
 .float-right {
   float: right;
-  background: #4FFFA1;
-  height: 100px;
-  width: 100px;
+  background: #ffffff;
+  height: 200px;
+  width: 500px;
 }
 
 .li {
