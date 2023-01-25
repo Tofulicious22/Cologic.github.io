@@ -309,13 +309,17 @@ display: flex;
 }
 
 .btn {
-  /*background-color: var(--bg, var(--gunmetal));
   color: var(--color, var(--white));
   padding: var(--padding, 10px 20px);
-  border-radius: var(--radius-4);
-  transition: var(--transition-1);*/
+  transition: var(--transition-1);
+  margin: auto;
+  margin-bottom:40px;
+  border-radius: 50px;
 
-  max-width: 100%;
+  color: #ff6600;
+  border: 2px solid #ff6600;
+  background-color: #ffffff;
+  /*max-width: 100%;
     float: none;
     margin: auto;
     display: flex;
@@ -327,13 +331,19 @@ display: flex;
     border-radius: 50px;
     color: #ff6600;
     border: 2px solid #ff6600;
-    background-color: #ffffff;
+    background-color: #ffffff;*/
 }
 
 .btn-primary {
   background: linear-gradient(133.08deg, #ffa800 28.44%, #ff7a00 96.09%);
   --color: var(--white);
   --border-color: var(--sefety-orange);
+  margin: 0;
+  border-radius: var(--radius-4);
+  
+  color: var(--color, var(--white));
+  padding: var(--padding, 10px 20px);
+  border: none;
 }
 
 .btn-primary:is(:hover, :focus) {
