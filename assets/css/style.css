@@ -972,6 +972,10 @@ display: flex;
     top: 3121px;
     background: #F9F2E1;
   }
+
+  .works-content1 img {
+    padding-left: 50%;
+  }
   
   .works-content2 {
     border-radius: 25px;
@@ -982,6 +986,10 @@ display: flex;
     top: 3121px;
     background: #A5E1D3;
   }
+
+  .works-content2 img {
+    padding-left: 50%;
+  }
   
   .works-content3 {
     border-radius: 25px;
@@ -991,6 +999,10 @@ display: flex;
     left: 0px;
     top: 3121px;
     background: #BBD7E9;
+  }
+
+  .works-content3 img {
+    padding-left: 20%;
   }
   
   .works-content4 {
