@@ -245,7 +245,7 @@ body.active {
   float: left;
   background: #ccc;
   height: 500px;
-  width: 500px;
+  width: 550px;
 }
 
 .float-right {
@@ -259,7 +259,7 @@ body.active {
   float: right;
   background: #F5F5DC;
   height: 500px;
-  width: 500px;
+  width: 550px;
 }
 
 .wrapper1{
