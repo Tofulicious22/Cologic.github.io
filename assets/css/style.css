@@ -244,21 +244,21 @@ body.active {
 .float-left {
   float: left;
   background: #ffffff;
-  height: 350px;
+  height: 500px;
   width: 500px;
 }
 
 .float-right {
   float: right;
   background: #ffffff;
-  height: 350px;
+  height: 500px;
   width: 500px;
 }
 
 .float-center {
   float: right;
   background: #ffffff;
-  height: 350px;
+  height: 500px;
   width: 500px;
 }
 
