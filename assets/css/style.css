@@ -211,6 +211,7 @@ body.active {
   padding-left: 550px;
 }
 
+
 .section-title3 {
   text-align: left;
   margin-top: 10%;
@@ -979,7 +980,8 @@ display: flex;
   .about-content3 {
     margin: auto;
     position: relative;
-    width: 1520px;
+    margin-left: -230px;
+    width: 1500px;
     height: 536px;
     left: 0px;
     background: linear-gradient(180deg, #FFA800 0%, #FF7A00 100%);
