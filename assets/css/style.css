@@ -969,7 +969,13 @@ display: flex;
     grid-template-columns: 1fr 1fr;
     align-items: center;
   }
-  
+
+  .about-content img {
+    width:100%;
+    max-width: 100%;
+    height: auto;
+
+  }
   .about-content3 {
     margin: auto;
     position: relative;
