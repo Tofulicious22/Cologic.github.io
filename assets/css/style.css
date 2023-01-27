@@ -970,10 +970,10 @@ display: flex;
     align-items: center;
   }
   
-  img .aboutus3 {
+  .about-content3 {
     margin: auto;
     position: relative;
-    width: 500px;
+    width: 1520px;
     height: 536px;
     left: 0px;
     background: linear-gradient(180deg, #FFA800 0%, #FF7A00 100%);
@@ -1202,7 +1202,8 @@ display: flex;
   .image1 {
     object-fit: contain;
   }
- 
+  
+  
   .btn-secondary:is(:hover, :focus) {
     background: linear-gradient(133.08deg, #ffa800 28.44%, #ff7a00 96.09%);
     color: white;
