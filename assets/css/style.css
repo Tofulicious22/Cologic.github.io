@@ -211,7 +211,6 @@ body.active {
   padding-left: 550px;
 }
 
-
 .section-title3 {
   text-align: left;
   margin-top: 10%;
@@ -1006,7 +1005,7 @@ body.active {
   .works-content2 {
     border-radius: 25px;
     margin: auto;
-    width: 1440px;
+    width: 1200px;
     height: 500px;
     left: 0px;
     top: 3121px;
@@ -1016,7 +1015,7 @@ body.active {
   .works-content3 {
     border-radius: 25px;
     margin: auto;
-    width: 1440px;
+    width: 1200px;
     height: 500px;
     left: 0px;
     top: 3121px;
