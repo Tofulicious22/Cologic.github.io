@@ -1023,12 +1023,13 @@ body.active {
   }
 
   .works-content4 {
+    border-radius: 25px;
     margin: auto;
-    width: 1520px;
-    height: 536px;
+    width: 1200px;
+    height: 500px;
     left: 0px;
     top: 3121px;
-    background: #ffffff;
+    background: #bbd7e9;
   }
 
   /**
