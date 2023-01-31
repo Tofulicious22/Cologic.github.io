@@ -1023,8 +1023,9 @@ body.active {
   }
 
   .works-content4 {
+    position: absolute;
     margin: auto;
-    width: 1520px;
+    width: 1200px;
     height: 536px;
     left: 0px;
     top: 3121px;
