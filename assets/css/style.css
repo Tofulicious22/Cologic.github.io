@@ -633,6 +633,34 @@ body.active {
   top: 3121px;
   background: #ccc;
 }
+.service2 {
+  box-sizing: content-box;
+  width: 45%;
+  border: solid #C4C4C4 1px;
+  border-radius: 10px;
+  padding: 25px;
+}
+.column .column-1 {
+  float: left;
+  
+}
+.column .column-2 {
+  float: right;
+}
+.service3{
+  box-sizing: content-box;
+  width: 45%;
+  border: solid #C4C4C4 1px;
+  border-radius: 10px;
+  padding: 25px;
+}
+.service4{
+  box-sizing: content-box;
+  width: 45%;
+  border: solid #C4C4C4 1px;
+  border-radius: 10px;
+  padding: 25px;
+}
 
 /*-----------------------------------*\
   #ABOUT
