@@ -1241,7 +1241,7 @@ body.active {
     text-align: center;
   }
 }
-@media (min-width:300px){
+@media (max-width:500px){
   div.service1{
     display: none;
   }
