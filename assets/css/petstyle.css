@@ -1,0 +1,29 @@
+.pet-title h1 {
+    font-size: 50px;
+    color:black; 
+    margin-top: 50px;
+    margin-left: 220px;
+}
+
+.pet-title .text-site {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.pet-title p {
+    color: lightgray; 
+    margin-left: 220px;
+}
+
+.pet-title .text-UI{
+    display: inline-block;
+    margin-left: 5px;
+}
+.showcase img {
+    margin-left: 220px;
+    margin-top: 50px;
+    border-radius: 20px; 
+    height: 50%; 
+    width: 73%; 
+    object-fit: contain
+}
