@@ -824,6 +824,79 @@ body.active {
 }
 
 /*-----------------------------------*\
+  #SOLUTION
+\*-----------------------------------*/
+
+.solution .grid-list {
+  gap: 50px;
+}
+
+.solution-card .card-banner {
+  position: relative;
+  overflow: hidden;
+}
+
+.solution-card .card-banner:is(:hover, :focus) .img-cover {
+  transform: scale(1.2);
+}
+
+.solution-card .card-tag {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  background-color: var(--white);
+  color: var(--gunmetal);
+  font-size: var(--fs-5);
+  font-weight: var(--fw-500);
+  text-transform: uppercase;
+  padding: 4px 10px;
+  border-radius: var(--radius-pill);
+  transition: var(--transition-1);
+}
+
+.solution-card .card-tag:is(:hover, :focus) {
+  background-color: var(--sefety-orange);
+  color: var(--white);
+}
+
+.solution-card :is(.meta-list, .meta-item) {
+  display: flex;
+  align-items: center;
+}
+
+.solution-card .meta-list {
+  column-gap: 20px;
+  flex-wrap: wrap;
+  margin-block: 25px 15px;
+}
+
+.solution-card .meta-item {
+  column-gap: 5px;
+}
+
+.solution-card .meta-item-text {
+  color: var(--sonic-silver);
+}
+
+.solution-card .h3 {
+  --fs-2: 2.8rem;
+}
+
+.solution-card .btn-link {
+  font-size: var(--fs-4);
+  margin-block-start: 20px;
+}
+.solution-content {
+  margin: auto;
+  position: relative;
+  margin-left: -200px;
+  width: 1500px;
+  height: 700px;
+  left: 0px;
+  background: linear-gradient(180deg, #224057 0%, #224057 100%);
+}
+
+/*-----------------------------------*\
   #FOOTER
 \*-----------------------------------*/
 
