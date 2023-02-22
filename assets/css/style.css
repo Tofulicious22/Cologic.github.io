@@ -779,8 +779,8 @@ body.active {
   width: 550px;
   background: #F2F2F2;
   border-radius: 20px;
-  padding: 20px;
-  margin-right: 25px;
+  padding: 25px;
+  margin-right: 30px;
 }
 .cs-circle{
   border-radius: 50%;
@@ -795,16 +795,16 @@ body.active {
 }
 
 #cs1 {
-    height: 300px;
+    height: 280px;
 }
 #cs2 {
-    height: 350px;
+    height: 330px;
 }
 #cs3 {
-    height: 400px;
+    height: 430px;
 }
 #cs4 {
-    height: 500px;
+    height: 480px;
 }
 .content-scroll-title{
   font-size: 20px;
