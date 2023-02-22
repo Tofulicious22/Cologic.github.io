@@ -807,7 +807,7 @@ body.active {
     height: 480px;
 }
 .content-scroll-title{
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 500;
   line-height: 25px;
   letter-spacing: 0.14em;
@@ -815,7 +815,7 @@ body.active {
   color: #121212;
 }
 .content-scroll-paragraph{
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 400;
   line-height: 31px;
   letter-spacing: 0em;
