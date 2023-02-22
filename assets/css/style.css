@@ -670,6 +670,23 @@ body.active {
   gap: 50px;
 }
 
+.about h1{
+  text-align: left;
+}
+
+.about .section-text {
+  font-size: unset;
+  margin-block: 30px 40px;
+  margin-bottom: 0px;
+  text-align: justify;
+}
+
+.about hr {
+  width: 40%; 
+  height: 3px;
+  background-color:#ff6600; 
+}
+
 .about-banner .w-100 {
   max-width: 90%;
 }
@@ -679,13 +696,36 @@ body.active {
   right: -5px;
 }
 
-.about .section-text {
-  font-size: unset;
-  margin-block: 30px 40px;
+.about .img-container
+{
+  width: 50%;
+  height: 50%;
+  display: block;
+  margin-left: auto;
+  float: right;
 }
 
-.about .btn {
-  max-width: max-content;
+.about-content3 .h1{
+  font-size: 50px;
+  text-align: justify;
+  margin-left: 100px;
+}
+
+.about-content3 p {
+  margin-left: 100px;
+}
+
+.footer img {
+  margin-bottom: -25px;
+}
+
+.footer .links{
+  text-align: right;
+}
+
+.footer hr {
+  height: 3px;
+  background-color:#ff6600; 
 }
 
 /*-----------------------------------*\
@@ -995,6 +1035,7 @@ body.active {
     grid-template-columns: 1fr 1fr;
     align-items: center;
   }
+  
 
   .about-content img {
     width: 100%;
