@@ -715,6 +715,49 @@ body.active {
   margin-left: 100px;
 }
 
+form{
+
+  border-radius: 10px;
+  position: relative;
+  margin-left: 650px;
+}
+
+
+input{
+  width: 30%;
+  height: 70%;
+  display: block;
+  font-size: 15px;
+  padding: 8px 30px 8px 20px;
+  border: none; 
+  border-radius: 5px;
+}
+
+input:focus{
+  outline: none;
+}
+
+.about-content3 button{
+  /* position: absolute; */
+  /* top: 0; */
+  /* right: 0; */
+  width: 75px; 
+  height: 100%;
+  cursor: pointer;
+  border: none;
+  border-radius: 0px 5px 5px 0px;
+  font-size: 20px;
+  background-color: #121212;
+  float: right;
+  margin-right: 580px;
+  margin-top: -34px;
+}
+
+.about-content3 button i{
+  color: white; 
+}
+
+
 .footer img {
   margin-bottom: -25px;
 }
