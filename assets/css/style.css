@@ -691,74 +691,10 @@ body.active {
 /*-----------------------------------*\
   #PROJECT
 \*-----------------------------------*/
-
-.project {
-  background-color: var(--white);
-}
-
-.project .section-title {
-  margin-block-end: 30px;
-}
-
 .project-list {
  display:flex;
  flex-wrap: wrap;
 }
-
-.project-card {
-  display: flex;
-  flex-flow: column;
-  width: 100%;
-  box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17);
-  -webkit-filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
-  filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
-  border-radius: 10px;
-  overflow: hidden;
-  text-decoration: none;
-}
-.project-card .card-banner {
-  margin-block-end: 35px;
-}
-
-.project-card .img-holder {
-  overflow: hidden;
-}
-
-.project-card:is(:hover, :focus-within) .img-cover {
-  transform: scale(1.2);
-}
-
-.project-card .card-content {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 25px;
-  padding: 10px;
-}
-
-.project-card .h3 {
-  --fs-2: 2.4rem;
-  margin-block-end: 4px;
-}
-
-.project-card .card-tag {
-  font-size: var(--fs-4);
-}
-
-.project-card .card-link {
-  color: var(--gunmetal);
-  font-size: 22px;
-  padding: 14px;
-  border-radius: var(--radius-circle);
-  transform: rotate(-45deg);
-  transition: var(--transition-1);
-}
-
-.project-card .card-link:is(:hover, :focus) {
-  background-color: var(--sefety-orange_10);
-  color: var(--sefety-orange);
-}
-
 /*-----------------------------------*\
   #BLOG
 \*-----------------------------------*/
