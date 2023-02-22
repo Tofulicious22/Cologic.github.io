@@ -701,10 +701,10 @@ body.active {
 }
 
 .project-list {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 60px;
+ display:flex;
+ flex-wrap: wrap;
 }
+
 .project-card {
   display: flex;
   flex-flow: column;
