@@ -941,6 +941,20 @@ input:focus{
   padding: 15px;
   margin-left: 100px;
 }
+.wecreate-btn {
+  color: var(--color, var(--white));
+  padding: var(--padding, 10px 20px);
+  transition: var(--transition-1);
+  border-radius: 50px;
+  margin-top: 20px;
+  color: #ff6600;
+  border: 2px solid #ff6600;
+  background-color: #ffffff;
+}
+.wecreate-btn:is(:hover,:focus) {
+  background: linear-gradient(133.08deg, #ffa800 28.44%, #ff7a00 96.09%);
+  color: white;
+}
 /*-----------------------------------*\
   #CLIENTS
 \*-----------------------------------*/
@@ -980,10 +994,15 @@ input:focus{
   line-height: 73px;
   letter-spacing: 0.0015em;
   color: #E0E0E0;
+  transform: rotate(-180deg) translate(-50px,0);
+  transform-origin: left;
   }
-.client-parangraph {
+.client-paragraph {
   font-style:italic;
-  margin-bottom: 50px;
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  color: #777777;
 }
 .client-pic-name img {
   border-radius: 50%;
@@ -998,7 +1017,7 @@ input:focus{
 }
 .cpn-hr {
    width: 500px;
-   margin-bottom: 50px;
+   margin-bottom: 30px;
    border-style: solid;
    border-color: #E0E0E0;
 
@@ -1012,26 +1031,11 @@ input:focus{
 .client-dot {
   height: 15px;
   width: 15px;
-  margin: 10px 2px;
+  margin: 50px 10px;
   background-color: #bbb;
   border-radius: 50%;
   display: inline-block;
   transition: background-color 0.6s ease;
-}
-
-.active {
-  background-color: #717171;
-}
-
-/* Fading animation */
-.fade {
-  animation-name: fade;
-  animation-duration: 1.5s;
-}
-
-@keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
 }
 
 /*-----------------------------------*\
