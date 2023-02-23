@@ -846,7 +846,10 @@ input:focus{
   #HOW WE WILL WORK TOGETHER
 \*-----------------------------------*/
 .scrolling-wrapper{
-  height: 550px;
+   position: relative;
+   margin-left: -200px;
+   width: 1500px;
+  height: 536px;
   display: flex;
   flex-wrap: nowrap;
   overflow-x: auto;
@@ -879,6 +882,7 @@ input:focus{
 
 #cs1 {
     height: 250px;
+    margin-left: 200px;
 }
 #cs2 {
     height: 330px;
@@ -903,6 +907,41 @@ input:focus{
   line-height: 31px;
   letter-spacing: 0em;
   text-align: justify;
+}
+/*-----------------------------------*\
+  #WECREATE
+\*-----------------------------------*/
+.wecreate-wrapper{
+  display: flex;
+}
+.wecreate-image-wrapper{
+  flex-box: nowrap;
+  position: relative;
+}
+.wc-image1 {
+  position: relative;
+  border-radius: 20px;
+  width: 400px;
+  height: 533px;
+    
+}
+
+.wc-image2 {
+  position: relative;
+  bottom:0;
+  right: 0;
+  width: 229px;
+  height: 292px;
+  border-radius: 20px;
+  transform: translate(250px,-200px);
+  
+}
+.wecreate-content-box{
+  box-sizing: content-box;
+  width: 500px;
+  height: 500px;
+  padding: 15px;
+  margin-left: 100px;
 }
 /*-----------------------------------*\
   #SOLUTION
