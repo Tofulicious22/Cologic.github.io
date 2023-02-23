@@ -1043,7 +1043,7 @@ input:focus{
 \*-----------------------------------*/
 .letsgetstarted-container {
   position: relative;
-  height: 800px;
+  height: 500px;
   display: flex;
   flex-wrap: nowrap;
   align-items: center;
