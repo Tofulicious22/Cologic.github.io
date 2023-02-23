@@ -294,7 +294,7 @@ body.active {
 .span::after {
   content: "";
   position: absolute;
-  bottom: -15px;
+  bottom: 1px;
   left: -7px;
   height: 10px;
   width: 100%;
@@ -964,6 +964,7 @@ input:focus{
    width: 1500px;
    height: 800px;
    padding-top:50px;
+   
 }
 .client-container-box {
   position: relative;
@@ -972,19 +973,41 @@ input:focus{
   overflow-x: auto;
   -ms-overflow-style: none;  /* IE and Edge */
   scrollbar-width: none;  /* Firefox */
+  
 }
+
 .client-container-box::-webkit-scrollbar {
   display: none;
 }
+.client-slide-wrapper {
+  height: 500px;
+  display: flex;
+  animation: slide 16s infinite;
+
+}
+.client-slide-wrapper:hover {
+  animation-play-state:paused;
+}
+@keyframes slide {
+   0%{
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(calc(-250px *3));
+    }
+}
+ 
 .client-content-box{
   flex: 0 0 auto;
   box-sizing: content-box;
-  width: 500px;
+  width: 490px;
   height: 300px;
   background: #FFFFFF;
   border-radius: 20px;
   padding: 25px;
   margin-right: 30px;
+  box-shadow: 0px 35px 40px -17px rgba(169, 169, 169, 0.25);
+  
 }
 .client-content-quotes {
   font-family: 'Inter';
@@ -999,9 +1022,9 @@ input:focus{
   }
 .client-paragraph {
   font-style:italic;
-  font-size: 20px;
+  font-size: 18px;
   margin-top: 10px;
-  margin-bottom: 30px;
+  margin-bottom: 35px;
   color: #777777;
 }
 .client-pic-name img {
@@ -1017,7 +1040,7 @@ input:focus{
 }
 .cpn-hr {
    width: 500px;
-   margin-bottom: 30px;
+   margin-bottom: 35px;
    border-style: solid;
    border-color: #E0E0E0;
 
