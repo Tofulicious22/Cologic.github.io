@@ -1341,7 +1341,7 @@ input:focus{
     bottom: 25.53%;
   }
 
-  .works-content1 {
+   .works-content1 {
     border-radius: 25px;
     max-width: 100%;
     height: auto;
@@ -1355,8 +1355,9 @@ input:focus{
 
   .works-content2 {
     border-radius: 25px;
+    max-width: 100%;
+    height: auto;
     margin: auto;
-    width: 1200px;
     height: 500px;
     left: 0px;
     top: 3121px;
@@ -1365,8 +1366,9 @@ input:focus{
 
   .works-content3 {
     border-radius: 25px;
+    max-width: 100%;
+    height: auto;
     margin: auto;
-    width: 1200px;
     height: 500px;
     left: 0px;
     top: 3121px;
