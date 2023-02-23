@@ -946,8 +946,10 @@ input:focus{
 \*-----------------------------------*/
 .client-container{
    background: #FBFBFB;
+   margin-left: -200px;
+   width: 1500px;
    height: 800px;
-   padding-top: 15px;
+   padding-top:50px;
 }
 .client-container-box {
   position: relative;
@@ -1037,10 +1039,11 @@ input:focus{
 \*-----------------------------------*/
 .letsgetstarted-container {
   position: relative;
-  height: 450px;
+  height: 800px;
   display: flex;
   flex-wrap: nowrap;
-  padding: 10%;
+  align-items: center;
+  justify-content: center;
 }
 /*-----------------------------------*\
   #SOLUTION
