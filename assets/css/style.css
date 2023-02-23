@@ -925,7 +925,6 @@ input:focus{
   height: 533px;
     
 }
-
 .wc-image2 {
   position: relative;
   bottom:0;
@@ -933,8 +932,7 @@ input:focus{
   width: 229px;
   height: 292px;
   border-radius: 20px;
-  transform: translate(250px,-200px);
-  
+  transform: translate(250px,-200px);  
 }
 .wecreate-content-box{
   box-sizing: content-box;
