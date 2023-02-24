@@ -921,32 +921,37 @@ input:focus{
 .wc-image1 {
   position: relative;
   border-radius: 20px;
-  width: 400px;
-  height: 533px;
-    
+  width: 290px;
+  height: 433px;
+  margin-left: 100px;
+  transform: translate(-10px, 50px);
 }
+
 .wc-image2 {
   position: relative;
   bottom:0;
   right: 0;
-  width: 229px;
-  height: 292px;
+  width: 180px;
+  height: 250px;
   border-radius: 20px;
-  transform: translate(250px,-200px);  
+  transform: translate(280px,-120px);
+  
 }
 .wecreate-content-box{
   box-sizing: content-box;
   width: 500px;
   height: 500px;
-  padding: 15px;
-  margin-left: 100px;
+  margin-left: 120px;
+}
+.wecreate-content-box p{
+  font-size:14px;
 }
 .wecreate-btn {
   color: var(--color, var(--white));
   padding: var(--padding, 10px 20px);
   transition: var(--transition-1);
   border-radius: 50px;
-  margin-top: 20px;
+  margin-top: 45px;
   color: #ff6600;
   border: 2px solid #ff6600;
   background-color: #ffffff;
