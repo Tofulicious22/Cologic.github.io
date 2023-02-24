@@ -935,7 +935,7 @@ input:focus{
   height: 250px;
   border-radius: 20px;
   transform: translate(280px,-120px);
-  
+  filter: drop-shadow(13px 9px 40px rgba(0, 0, 0, 0.25));
 }
 .wecreate-content-box{
   box-sizing: content-box;
