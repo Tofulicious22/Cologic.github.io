@@ -783,7 +783,7 @@ input:focus{
   padding: var(--padding, 10px 20px);
   transition: var(--transition-1);
   border-radius: 50px;
-  margin-top: 45px;
+  margin:auto;
   color: #ff6600;
   border: 2px solid #ff6600;
   background-color: #ffffff;
