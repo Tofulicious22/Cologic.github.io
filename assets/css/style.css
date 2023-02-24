@@ -953,8 +953,15 @@ input:focus{
 }
 .wecreate-btn:is(:hover,:focus) {
   background: linear-gradient(133.08deg, #ffa800 28.44%, #ff7a00 96.09%);
-  color: white;
+  color: black;
 }
+.wecreate-btn::before{
+  content:"MEET OUT TEAM";
+}
+.wecreate-btn:hover::before{
+  content:"GROW WITH US";
+}
+
 /*-----------------------------------*\
   #CLIENTS
 \*-----------------------------------*/
