@@ -778,6 +778,22 @@ input:focus{
  display:flex;
  flex-wrap: wrap;
 }
+.our-works-btn {
+  color: var(--color, var(--white));
+  padding: var(--padding, 10px 20px);
+  transition: var(--transition-1);
+  border-radius: 50px;
+  margin-top: 45px;
+  color: #ff6600;
+  border: 2px solid #ff6600;
+  background-color: #ffffff;
+}
+.our-works-btn:is(:hover,:focus) {
+   background: linear-gradient(133.08deg, #ffa800 28.44%, #ff7a00 96.09%);
+   color: black;
+   display: flex;
+   text-align: center;
+}
 /*-----------------------------------*\
   #BLOG
 \*-----------------------------------*/
