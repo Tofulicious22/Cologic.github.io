@@ -1617,6 +1617,33 @@ input:focus{
   .project-list > *:is(:first-child, :nth-child(2)) {
     width: calc(50% - 30px);
   }
+   .works-content1 {
+    border-radius: 25px;
+    max-width: 1140px;
+    margin: auto;
+    height: 565px;
+    left: 0px;
+    top: 3121px;
+    background: #f9f2e1;
+  }
+  .works-content2 {
+    border-radius: 25px;
+    max-width: 1140px;
+    margin: auto;
+    height: 565px;
+    left: 0px;
+    top: 3121px;
+    background: #a5e1d3;
+  }
+  .works-content3 {
+    border-radius: 25px;
+    max-width: 1140px;
+    margin: auto;
+    height: 565px;
+    left: 0px;
+    top: 3121px;
+    background: #bbd7e9;
+  }
 }
 @media (max-width: 300px) {
   .container {
