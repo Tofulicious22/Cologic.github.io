@@ -703,6 +703,7 @@ body.active {
   display: block;
   margin-left: auto;
   float: right;
+  margin-top: -100px;
 }
 
 .about-content3 .h1{
@@ -1651,6 +1652,45 @@ input:focus{
     width: 100%; 
     height: 100%; 
     margin-right: 10px;
+    margin-top: -50px;
   }
+
+  .wrapper1 p {
+    font-size: 15px;
+  }
+
+  .about-content3 {
+    margin: auto;
+    position: relative;
+    margin-left: -200px;
+    width: 1500px;
+    height: 536px;
+    left: 0px;
+    background: linear-gradient(180deg, #ffa800 0%, #ff7a00 100%);
+  }
+
+  .about-content3 img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    margin-top: 2000px;
+  }
+
+  .footer p {
+    font-size: 12px; 
+    margin-bottom: 10px;
+  }
+
+  .footer .links {
+   text-align: center;
+  }
+
+  .footer img {
+    display: none;
+  }
+
+
+
   
   }
