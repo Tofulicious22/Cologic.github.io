@@ -719,6 +719,13 @@ body.active {
 .section-title1 {
   font-size: 40px;
 }
+.wrapper1 p {
+  padding-left: 50px;
+}
+
+.wrapper1 .number {
+  padding-left: 0px;
+}
 
 form{
 
@@ -1643,6 +1650,7 @@ input:focus{
 
   .about hr {
     margin-left: 20px;
+    width: 90%;
   }
   
   .about .section-text {
@@ -1657,19 +1665,45 @@ input:focus{
     height: 100%; 
     margin-right: 10px;
     margin-top: -50px;
+    margin-bottom: 0px;
+  }
+
+  .float-center {
+    display: none;
   }
 
   .section-title1 {
-    font-size: 30px;
-    padding-left: 10px;
-  }
-
-  .column p {
-    font-size: 15px;
+    font-size: 20px;
+    padding-left: 20px;
   }
 
   .wrapper1 p {
     font-size: 15px;
+    padding-left: 20px;
+  }
+
+  .float-center {
+    display: none;
+  }
+
+   .float-left {
+    display: inline-block;
+    padding-top: 50px; 
+  }
+
+  .float-right {
+    position: absolute;
+    bottom: 0;
+    padding-top: 110px; 
+  }
+
+  .float-right .text-right{
+    margin-left: -30px; 
+    margin-bottom: 20px;
+  } 
+
+  .about-content img {
+    padding-top: 30px;
   }
 
   .about-content3 {
@@ -1713,7 +1747,6 @@ input:focus{
     margin-left: 210px;
     margin-top: 180px;
   }
-  
   
   input{
     width: 70%;
@@ -1761,8 +1794,5 @@ input:focus{
   .footer img {
     display: none;
   }
-
-
-
   
   }
