@@ -1183,7 +1183,14 @@ input:focus{
   left: 0px;
   background: linear-gradient(180deg, #224057 0%, #224057 100%);
 }
-
+/* Our recent works
+*/
+.OurRecentWorks {
+  position: relative;
+  height: auto;
+  align-items: center;
+  display: flex;
+}
 /*-----------------------------------*\
   #FOOTER
 \*-----------------------------------*/
@@ -1414,16 +1421,6 @@ input:focus{
     top: 3121px;
     background: #bbd7e9;
   }
-
-  .works-content4 {
-    margin: auto;
-    width: 1520px;
-    height: 536px;
-    left: 0px;
-    top: 3121px;
-    background: #ffffff;
-  }
-
   /**
    * PROJECT
    */
@@ -1488,6 +1485,39 @@ input:focus{
     border: 2px solid #ff6600;
     background-color: #ffffff;
   }
+
+  /**
+   * OUR RECENT WORKS
+   */
+.works-content1 {
+    border-radius: 25px;
+    max-width: 100%;
+    margin: auto;
+    height: 565px;
+    left: 0px;
+    top: 3121px;
+    background: #f9f2e1;
+  }
+
+ .works-content2 {
+    border-radius: 25px;
+    max-width: 960px;
+    margin: auto;
+    height: 565px;
+    left: 0px;
+    top: 3121px;
+    background: #a5e1d3;
+  }
+
+.works-content3 {
+    border-radius: 25px;
+    max-width: 960px;
+    margin: auto;
+    height: 565px;
+    left: 0px;
+    top: 3121px;
+    background: #bbd7e9;
+  } 
 
   /**
    * FOOTER
