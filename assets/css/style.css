@@ -1811,5 +1811,30 @@ input:focus{
   .footer img {
     display: none;
   }
-  
+  .section-title1 {
+  width:340px;
+  font-size:35px;
+  text-align: left;
+  color: #121212;
+}
+.section-text2 {
+  width: 340px;
+  font-size: 15px;
+  text-align: left;
+}
+.Works1 {
+  width: 340px;
+  height: 150px;
+  object-fit: contain;
+}
+.Works2 {
+ width: 340px;
+ height: 150px;
+  object-fit: contain;
+}
+.Works3 {
+ width: 340px;
+   height: 150px;
+  object-fit: contain;
+}
   }
