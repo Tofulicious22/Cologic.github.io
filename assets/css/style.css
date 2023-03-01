@@ -1065,6 +1065,9 @@ input:focus{
   height: 500px;
   margin-left: 120px;
 }
+.wecreate-content-box h2 {
+  text-align: left;
+}
 .wecreate-content-box p{
   font-size:14px;
 }
@@ -1815,24 +1818,25 @@ select{
   }
   div.service2 {
   box-sizing: content-box;
-  width: 250px;
+  width: 300px;
   border: solid #C4C4C4 1px;
   border-radius: 10px;
   padding: 15px;
   }
   div.service3 {
   box-sizing: content-box;
-  width: 250px;
+  width: 300px;
   border: solid #C4C4C4 1px;
   border-radius: 10px;
   padding: 15px;
   }
   div.service4 {
   box-sizing: content-box;
-  width: 250px;
+  width: 300px;
   border: solid #C4C4C4 1px;
   border-radius: 10px;
   padding: 15px;
+  margin-bottom: -300px;
   }
 }
 
@@ -2052,6 +2056,16 @@ select{
     height: 100%;
   }
 
+  .how-blog {
+    margin-top: -100px;
+  }
+
+  .scrolling-wrapper {
+    width: 1500px;
+    height: 400px;
+    margin-bottom: -100px;
+  }
+
   .column-1 {
     font-size: 15px;
   }
@@ -2086,5 +2100,60 @@ select{
     width: 330px;
     height:200px;                
   }
+
+  .wc-image1 {
+    position: relative;
+    border-radius: 20px;
+    width: 200px;
+    height: 350px;
+    margin-left: 50px;
+    transform: translate(-10px, 50px);
+  }
+  
+  .wc-image2 {
+    position: relative;
+    bottom:0;
+    right: 0;
+    width: 150px;
+    height: 200px;
+    border-radius: 20px;
+    transform: translate(150px,-130px);
+    filter: drop-shadow(13px 9px 40px rgba(0, 0, 0, 0.25));
+  }
+
+  .wecreate-content-box h2 {
+    font-size: 25px;
+    margin-left: -335px;
+    margin-top: -100px;
+    margin-right: 50px;
+    text-align: center;
+  }
+
+  .wecreate-content-box p {
+    font-size: 15px;
+    margin-left: -350px;
+    margin-top: 480px;
+    margin-right: 20px;
+    margin-bottom: -500px;
+    text-align: center;
+  }
+
+  .wecreate-btn {
+    margin-left: -270px;
+    margin-top: 520px;
+    margin-right: 80px; 
+  }
+
+  .client-header h2 {
+    font-size: 30px;
+    margin-top: 250px;
+    margin-left: -750px;
+  }
+  .client-header p {
+    font-size: 10px; 
+    margin-left: -750px;
+  }
+
+
 
   }
