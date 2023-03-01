@@ -584,9 +584,19 @@ body.active {
   left: 10px;
 }
 
+.hero-content .section-text {
+  padding: 35px 0px 35px 0px; 
+  text-align:center; 
+}
+
 /*-----------------------------------*\
   #SERVICE
 \*-----------------------------------*/
+.image1 {
+  border-radius: 20px; 
+  height: 100%; width: 100%; 
+  object-fit: contain; 
+}
 
 .service {
   background-color: var(--white);
@@ -1736,7 +1746,7 @@ input:focus{
   .float-right {
     position: absolute;
     bottom: 0;
-    padding-top: 120px; 
+    padding-top: 190px; 
   }
 
   .float-right .text-right{
@@ -1855,26 +1865,23 @@ input:focus{
   width: 95%;
   font-size: 15px;
   text-align: left;
-}
+  }
 
-.Works1 {
+  .Works1 {
+    width: 90%;
+    height: 90%;
+    object-fit: contain;
+  }
+  .Works2 {
+  width: 90%;
+  height: 90%;
+    object-fit: contain;
+  }
+  .Works3 {
   width: 90%;
   height: 90%;
   object-fit: contain;
-}
-.Works2 {
- width: 90%;
- height: 90%;
-  object-fit: contain;
-}
-.Works3 {
- width: 90%;
- height: 90%;
- object-fit: contain;
-}
-/* home page */
-/* .h1 {
-  color: red;
-} */
+  }
 
+  /* home page */
   }
