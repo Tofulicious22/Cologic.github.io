@@ -2201,6 +2201,15 @@ textarea{
   height: 90px;
  }
 }
+textarea{
+  height: 95px;
+ }
+ select{
+   margin-top: 5px;
+ }
+ .contform-button{
+   margin-top:15px;
+ }
 @media (min-width:400px){
   .contact-icons2{
   display: none;
