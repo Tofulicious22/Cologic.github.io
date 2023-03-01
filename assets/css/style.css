@@ -650,6 +650,15 @@ body.active {
   border-radius: 10px;
   padding: 25px;
 }
+.column {
+  font-weight: 500;
+  font-size: 21px;
+  line-height: 25px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color:#121212;
+}
+
 .column .column-1 {
   float: left;
 }
@@ -1656,21 +1665,21 @@ input:focus{
   }
   div.service2 {
   box-sizing: content-box;
-  width: 290px;
+  width: 250px;
   border: solid #C4C4C4 1px;
   border-radius: 10px;
   padding: 15px;
   }
   div.service3 {
   box-sizing: content-box;
-  width: 290px;
+  width: 250px;
   border: solid #C4C4C4 1px;
   border-radius: 10px;
   padding: 15px;
   }
   div.service4 {
   box-sizing: content-box;
-  width: 290px;
+  width: 250px;
   border: solid #C4C4C4 1px;
   border-radius: 10px;
   padding: 15px;
@@ -1884,4 +1893,17 @@ input:focus{
   }
 
   /* home page */
+  .hero-content .btn {
+    font-size: 12px;
+    margin-left: 40px;
+  }
+  .image1 {
+    width: 85%;
+    height: 100%;
+  }
+
+  .column-1 {
+    font-size: 15px;
+  }
+
   }
