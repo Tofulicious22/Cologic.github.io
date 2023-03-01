@@ -1795,6 +1795,10 @@ select{
     object-fit: contain;
   }
 }
+@media (min-width:1201px){
+  #navbar-contact {
+    display: none;
+}
 @media (max-width: 300px) {
   .container {
     margin-left: 50px;
