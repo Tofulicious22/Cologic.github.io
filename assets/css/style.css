@@ -1785,21 +1785,18 @@ select{
   margin-left: 100px;
   }
    .Works1 {
-    width: 1140px;
-    height: 565px;
-    margin-left: 100px;
+    width:80%;
+    height: auto;
     object-fit: contain;
   }
   .Works2 {
-    width: 1140px;
-    height: 565px;
-    margin-left: 100px;
+    width:80%;
+    height: auto;
     object-fit: contain;
   }
   .Works3 {
-    width: 1140px;
-    height: 565px;
-    margin-left: 100px;
+    width:80%;
+    height: auto;
     object-fit: contain;
   }
 }
