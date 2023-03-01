@@ -1735,7 +1735,12 @@ select{
     text-transform: uppercase;
     font-weight: var(--fw-500);
   }
-
+    #navbar-contact {
+    display: none;
+ }
+  .contact-icons2{
+  display: none;
+ }
   /**
    * SERVICE
    */
@@ -1796,10 +1801,6 @@ select{
   }
 }
 
-@media (min-width:1201px){
-  #navbar-contact {
-    display: none;
-}
 @media (max-width: 300px) {
   .container {
     margin-left: 50px;
@@ -2171,3 +2172,57 @@ select{
     margin-left: -750px;
   }
   }
+/** CONTACT US PAGE **/
+
+
+@media (max-width:400px){
+ .container {
+   display: block;
+    width: 350px;
+    margin: 0px;
+    align-items:center;
+  }
+ .contact-container {
+  display:inline-block;
+  margin:0px;
+ }
+ .contact-left-box{
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-left: 0px;
+}
+ .contact-form-box{
+  margin-top: 30px;
+  width: 350px;
+ }
+ .contact-icons1{
+  display: none;
+ }
+ .contact-icons2{
+  margin-top:50px;
+  text-align: center;
+ }
+ .contform-section{
+   margin-top: 10px;
+   margin-left:25px;
+   font-size: 15px;
+}
+textarea{
+  height: 90px;
+ }
+}
+textarea{
+  height: 95px;
+ }
+ select{
+   margin-top: 5px;
+ }
+ .contform-button{
+   margin-top:15px;
+ }
+@media (min-width:400px){
+  .contact-icons2{
+  display: none;
+ }
+}
+
