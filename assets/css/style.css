@@ -716,15 +716,28 @@ body.active {
   margin-left: 100px;
 }
 
+.wrapper1 h4 {
+  font-size: 40px;
+  padding-left: 10px;
+}
+
 .section-title1 {
   font-size: 40px;
 }
 .wrapper1 p {
-  padding-left: 50px;
+  padding-left: 100px;
+}
+
+.wrapper1 .text-right {
+  margin-left: 50px;
 }
 
 .wrapper1 .number {
   padding-left: 0px;
+}
+
+.section-title1{
+  color: red;
 }
 
 form{
@@ -1654,6 +1667,8 @@ input:focus{
  */
 
  @media all and (max-width: 500px) {
+
+  /* about page */
   .about .container {
     display: grid;
     gap: 50px;
@@ -1685,10 +1700,6 @@ input:focus{
     margin-bottom: 0px;
   }
 
-  .float-center {
-    display: none;
-  }
-
   .section-title1 {
     font-size: 20px;
     padding-left: 20px;
@@ -1703,9 +1714,18 @@ input:focus{
     display: none;
   }
 
-   .float-left {
+  .float-left {
     display: inline-block;
     padding-top: 50px; 
+    font-size: 20px;
+  }
+
+  .float-left .section-title1 {
+    font-size: 20px;
+  }
+
+  .float-right .section-title1 {
+    font-size: 20px;
   }
 
   .float-right {
@@ -1811,18 +1831,22 @@ input:focus{
   .footer img {
     display: none;
   }
+
+  /* works page */
   .section-title1 {
   width:90%;
   font-size:35px;
   text-align: left;
   color: #121212;
   margin-left: 10px;
-}
-.section-text2 {
+  }
+
+  .section-text2 {
   width: 95%;
   font-size: 15px;
   text-align: left;
 }
+
 .Works1 {
   width: 90%;
   height: 90%;
@@ -1838,4 +1862,9 @@ input:focus{
  height: 90%;
  object-fit: contain;
 }
+/* home page */
+/* .h1 {
+  color: red;
+} */
+
   }
