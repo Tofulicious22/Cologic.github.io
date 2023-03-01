@@ -1149,6 +1149,99 @@ input:focus{
   justify-content: center;
 }
 /*-----------------------------------*\
+  #CONTACTUS
+\*-----------------------------------*/
+.contact-container{
+  display: flex;
+  flex-wrap: flex;
+  margin-top: 20px;
+}
+.contact-left-box{
+  margin-top: 40px;
+  margin-right: 110px;
+  margin-left: 100px;
+}
+.contact-header{
+  line-height: 1;
+  font-size: 40px;
+  color: var(--gunmetal);
+  margin-top:5px;
+}
+.contact-text{
+  margin-top:30px;
+}
+.contact-icons{
+  margin-top:140px;
+}
+.contact-form-box{
+  box-sizing: content-box;
+  width: 380px;
+  height: 520px;
+  padding-top: 5px;
+  padding-left: 5px;
+  box-shadow: 0px 35px 40px -17px rgba(169, 169, 169, 0.25);
+  border-top: double 2px transparent;
+  border-radius: 15px;
+  background-image: linear-gradient(white, white), radial-gradient(circle at top left, #ffa800,#ff7a00);
+  background-origin: border-box;
+  background-clip: padding-box, border-box;
+
+}
+.contform-section{
+   margin-top: 15px;
+   margin-left:35px;
+   font-size: 15px;
+}
+
+.contform-input::placeholder{
+  font-size:12px;
+  font-family: var(--ff-jost);
+  color: gray;
+}
+textarea{
+  height: 70px;
+}
+textarea::placeholder {
+  position: absolute;
+  top: 10px;
+  left: 18px;
+  font-family: var(--ff-jost);
+  color: var(--davys-gray);
+}
+.contform-input{
+  border: 1px solid #E0E0E0;
+  width: 300px;
+}
+select{
+  height: 40px;
+  font-family: var(--ff-jost);
+  color:gray;
+  background: white;
+  border-radius: 5px;
+  padding-left: 15px;
+  background-repeat: no-repeat;
+  background-position: left;
+}
+#business{
+  border-radius: 5px;
+}
+.contform-button{
+  background: linear-gradient(133.08deg, #ffa800 28.44%, #ff7a00 96.09%);
+  --color: var(--white);
+  --border-color: var(--sefety-orange);
+  color: black;
+  padding: var(--padding, 10px 20px);
+  border: none;
+  border-radius: 50px;
+  width: 300px;
+  margin-top: 10px;
+}
+.contform-button:is(:hover, :focus) {
+  --bg: transparent;
+  color: white;
+  background:var(--sefety-orange);
+}
+/*-----------------------------------*\
   #SOLUTION
 \*-----------------------------------*/
 
