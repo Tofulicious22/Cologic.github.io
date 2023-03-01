@@ -1818,7 +1818,6 @@ select{
     text-align: center;
   }
 }
-}
 
 @media (max-width:500px){
   div.service1{
@@ -2066,7 +2065,7 @@ select{
 
 
   .hero-content .btn {
-    font-size: 15px;
+    font-size: 14px;
     margin-left: 40px;
   }
   .image1 {
@@ -2170,6 +2169,9 @@ select{
   .client-header p {
     font-size: 10px; 
     margin-left: -750px;
+  }
+  .service1 img {
+    display: none;
   }
   }
 /** CONTACT US PAGE **/
