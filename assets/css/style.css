@@ -2029,12 +2029,14 @@ select{
   text-align: left;
   color: #121212;
   margin-left: 10px;
+    
   }
 
   .section-text2 {
   width: 95%;
   font-size: 15px;
   text-align: left;
+   margin-left: -20px;
   }
 
   .Works1 {
