@@ -706,6 +706,11 @@ body.active {
   margin-top: -100px;
 }
 
+.why-title .section-title1 {
+  font-size: 50px; 
+  margin-left: -40px;
+}
+
 .about-content3 .h1{
   font-size: 50px;
   text-align: justify;
@@ -1741,6 +1746,11 @@ input:focus{
 
   .about-content img {
     padding-top: 30px;
+  }
+
+  .why-title .section-title1 {
+    font-size: 20px; 
+    margin-left: -10px;
   }
 
   .about-content3 {
