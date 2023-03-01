@@ -1574,14 +1574,14 @@ input:focus{
    * OUR RECENT WORKS
    */
   .section-title1 {
-  width:1140px;
+  width:90%;
   font-size:80px;
   text-align: left;
   margin-left:90px;
   color: #121212;
   }
   .section-text2 {
-  width: 1140px;
+  width: 30%;
   font-size: 25px;
   text-align: left;
   margin-left: 100px;
@@ -1812,29 +1812,30 @@ input:focus{
     display: none;
   }
   .section-title1 {
-  width:340px;
+  width:90%;
   font-size:35px;
   text-align: left;
   color: #121212;
+  margin-left: 10px;
 }
 .section-text2 {
-  width: 340px;
+  width: 95%;
   font-size: 15px;
   text-align: left;
 }
 .Works1 {
-  width: 340px;
-  height: 150px;
+  width: 90%;
+  height: 90%;
   object-fit: contain;
 }
 .Works2 {
- width: 340px;
- height: 150px;
+ width: 90%;
+ height: 90%;
   object-fit: contain;
 }
 .Works3 {
- width: 340px;
-   height: 150px;
-  object-fit: contain;
+ width: 90%;
+ height: 90%;
+ object-fit: contain;
 }
   }
