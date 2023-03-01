@@ -1518,7 +1518,37 @@ select{
   .project-list > * {
     min-width: 100%;
   }
-
+  
+  /**
+   * OUR RECENY WORKS
+   */
+  .section-title1 {
+  width:85%;
+  font-size: 60px;
+  text-align: left;
+  margin-left:40px;
+  color: #121212;
+  }
+  .section-text2 {
+  width: 75%;
+  font-size: 20px;
+  margin-left: 40px;
+  }
+   .Works1 {
+    width:75%;
+    height: auto;
+    object-fit: contain;
+  }
+  .Works2 {
+    width:75%;
+    height: auto;
+    object-fit: contain;
+  }
+  .Works3 {
+    width:75%;
+    height: auto;
+    object-fit: contain;
+  }
   /**
    * FOOTER
    */
@@ -1607,6 +1637,39 @@ select{
   .project-list > * {
     min-width: calc(50% - 30px);
     width: calc(50% - 30px);
+  }
+  
+  /**
+   * OUR RECENT WORKS
+   */
+
+  .section-title1 {
+  width:90%;
+  font-size:70px;
+  text-align: left;
+  margin-left:40px;
+  color: #121212;
+  }
+  .section-text2 {
+  width: 50%;
+  font-size: 25px;
+  text-align: left;
+  margin-left: 40px;
+  }
+   .Works1 {
+    width:80%;
+    height: auto;
+    object-fit: contain;
+  }
+  .Works2 {
+    width:80%;
+    height: auto;
+    object-fit: contain;
+  }
+  .Works3 {
+    width:80%;
+    height: auto;
+    object-fit: contain;
   }
 }
 
@@ -1779,8 +1842,8 @@ select{
   color: #121212;
   }
   .section-text2 {
-  width: 30%;
-  font-size: 25px;
+  width: 35%;
+  font-size: 30px;
   text-align: left;
   margin-left: 100px;
   }
@@ -1844,6 +1907,29 @@ select{
   border-radius: 10px;
   padding: 15px;
   margin-bottom: -300px;
+  }
+}
+
+@media (max-width: 574px) {
+  .section-title1 {
+    color: black;
+    font-size: 45px;
+  }
+  .section-text2 {
+    width: 80%;
+    font-size: 20px;
+  }
+  .Works1 {
+    width: 90%;
+    height: auto;
+  }
+  .Works2 {
+    width: 90%;
+    height: auto;
+  }
+  .Works3 {
+    width: 90%;
+    height: auto;
   }
 }
 
@@ -2024,12 +2110,13 @@ select{
 
   /* works page */
   .section-title1 {
-  width:90%;
+  width:70%;
   font-size:35px;
   text-align: left;
   color: #121212;
   margin-left: 10px;
-    
+  line-height: 42px;
+  text-transform: capitalize;  
   }
 
   .section-text2 {
@@ -2040,18 +2127,18 @@ select{
   }
 
   .Works1 {
-    width: 90%;
-    height: 90%;
+   width: 85%;
+    height: auto;
     object-fit: contain;
   }
   .Works2 {
-  width: 90%;
-  height: 90%;
+ width: 85%;
+    height: auto;
     object-fit: contain;
   }
   .Works3 {
-  width: 90%;
-  height: 90%;
+  width: 85%;
+    height: auto;
   object-fit: contain;
   }
 
