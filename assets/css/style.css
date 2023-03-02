@@ -1553,29 +1553,29 @@ select{
    * OUR RECENY WORKS
    */
   .section-title1 {
-  width:85%;
-  font-size: 60px;
+  width:95%;
+  font-size: 50px;
   text-align: left;
-  margin-left:40px;
+  margin-left:70px;
   color: #121212;
   }
   .section-text2 {
-  width: 75%;
+  width: 80%;
   font-size: 20px;
-  margin-left: 40px;
+  margin-left: 70px;
   }
    .Works1 {
-    width:75%;
+    width:70%;
     height: auto;
     object-fit: contain;
   }
   .Works2 {
-    width:75%;
+    width:70%;
     height: auto;
     object-fit: contain;
   }
   .Works3 {
-    width:75%;
+    width:70%;
     height: auto;
     object-fit: contain;
   }
@@ -1675,29 +1675,29 @@ select{
 
   .section-title1 {
   width:90%;
-  font-size:70px;
+  font-size:60px;
   text-align: left;
-  margin-left:40px;
+  margin-left:100px;
   color: #121212;
   }
   .section-text2 {
-  width: 50%;
+  width: 65%;
   font-size: 25px;
   text-align: left;
-  margin-left: 40px;
+  margin-left: 100px;
   }
    .Works1 {
-    width:80%;
+    width:70%;
     height: auto;
     object-fit: contain;
   }
   .Works2 {
-    width:80%;
+    width:70%;
     height: auto;
     object-fit: contain;
   }
   .Works3 {
-    width:80%;
+    width:70%;
     height: auto;
     object-fit: contain;
   }
@@ -1756,6 +1756,37 @@ select{
     color: #ff6600;
     border: 2px solid #ff6600;
     background-color: #ffffff;
+  }
+  /**
+   * OUR RECENT WORKS
+   */
+  .section-title1 {
+  width:90%;
+  font-size:70px;
+  text-align: left;
+  margin-left:80px;
+  color: #121212;
+  }
+  .section-text2 {
+  width:50%;
+  font-size: 25px;
+  text-align: left;
+  margin-left: 90px;
+  }
+   .Works1 {
+    width:80%;
+    height: auto;
+    object-fit: contain;
+  }
+  .Works2 {
+    width:80%;
+    height: auto;
+    object-fit: contain;
+  }
+  .Works3 {
+    width:80%;
+    height: auto;
+    object-fit: contain;
   }
   
   /**
@@ -1909,6 +1940,31 @@ select{
     color: white;
     display: flex;
     text-align: center;
+  }
+}
+
+@media (max-width: 574px) {
+  .section-title1 {
+    color: black;
+    font-size: 45px;
+    margin-left: -15px;
+  }
+  .section-text2 {
+    width: 90%;
+    font-size: 20px;
+     margin-left: -15px;
+  }
+  .Works1 {
+    width: 90%;
+    height: auto;
+  }
+  .Works2 {
+    width: 90%;
+    height: auto;
+  }
+  .Works3 {
+    width: 90%;
+    height: auto;
   }
 }
 
