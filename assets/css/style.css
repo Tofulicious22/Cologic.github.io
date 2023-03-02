@@ -2182,11 +2182,11 @@ select{
   .Works1 {
    margin-top:-50px;
    width: 85%;
-    height: auto;
-    object-fit: contain;
+   height: auto;
+   object-fit: contain;
   }
   .Works2 {
- width: 85%;
+    width: 85%;
     height: auto;
     object-fit: contain;
   }
