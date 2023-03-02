@@ -1244,6 +1244,7 @@ input:focus{
   font-size: 40px;
   color: var(--gunmetal);
   margin-top:5px;
+  
 }
 .contact-text{
   margin-top:30px;
@@ -1329,6 +1330,7 @@ select{
    text-fill-color: transparent;
   -webkit-text-fill-color: transparent;
 }
+
 /*-----------------------------------*\
   #SOLUTION
 \*-----------------------------------*/
