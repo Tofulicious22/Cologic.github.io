@@ -439,7 +439,22 @@ body.active {
 .hover\:underline:is(:hover, :focus) {
   background-size: 100% 2px;
 }
-
+.h2-gradient-span{
+  display: contents;
+  
+}
+.h2-gradient-span::before {
+  content: "";
+  display: inline-block;
+}
+.h2-gradient-span{
+  display: inline-block;
+  background-image: linear-gradient(133.08deg, #ffa800 28.44%, #ff7a00 96.09%);
+   background-clip: text;
+  -webkit-background-clip: text;
+   text-fill-color: transparent;
+  -webkit-text-fill-color: transparent;
+}
 /*-----------------------------------*\
   #HEADER
 \*-----------------------------------*/
