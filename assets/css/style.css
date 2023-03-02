@@ -1910,62 +1910,6 @@ select{
 }
 
 @media (max-width:500px){
-  div.service1{
-    display: none;
-  }
-  div.service2 {
-  box-sizing: content-box;
-  width: 300px;
-  border: solid #C4C4C4 1px;
-  border-radius: 10px;
-  padding: 15px;
-  }
-  div.service3 {
-  box-sizing: content-box;
-  width: 300px;
-  border: solid #C4C4C4 1px;
-  border-radius: 10px;
-  padding: 15px;
-  }
-  div.service4 {
-  box-sizing: content-box;
-  width: 300px;
-  border: solid #C4C4C4 1px;
-  border-radius: 10px;
-  padding: 15px;
-  margin-bottom: -300px;
-  }
-}
-
-@media (max-width: 574px) {
-  .section-title1 {
-    color: black;
-    font-size: 45px;
-  }
-  .section-text2 {
-    width: 80%;
-    font-size: 20px;
-  }
-  .Works1 {
-    width: 90%;
-    height: auto;
-  }
-  .Works2 {
-    width: 90%;
-    height: auto;
-  }
-  .Works3 {
-    width: 90%;
-    height: auto;
-  }
-}
-
-/**
- * responsive for sizes less than 500px screen
- */
-
- @media all and (max-width: 500px) {
-
   /* about page */
   .about .container {
     display: grid;
@@ -1992,8 +1936,8 @@ select{
   }
 
   .about .img-container {
-    width: 100%; 
-    height: 100%; 
+    width: 100%;
+    height: 100%;
     margin-right: 15px;
     margin-top: -200px;
     margin-bottom: 0px;
@@ -2015,7 +1959,7 @@ select{
 
   .float-left {
     display: inline-block;
-    padding-top: 20px; 
+    padding-top: 20px;
     font-size: 20px;
   }
 
@@ -2036,9 +1980,9 @@ select{
   }
 
   .float-right .text-right{
-    margin-left: -30px; 
+    margin-left: -30px;
     margin-bottom: 20px;
-  } 
+  }
 
   .about-content img {
     padding-top: 150px;
@@ -2049,7 +1993,7 @@ select{
   }
    
   .why-title .section-title1 {
-    font-size: 20px; 
+    font-size: 20px;
     margin-left: -10px;
   }
 
@@ -2064,9 +2008,9 @@ select{
   }
 
   .about-content3 .h1{
-    font-size: 25px; 
-    display: inline; 
-    float:left; 
+    font-size: 25px;
+    display: inline;
+    float:left;
     padding-left: 10px;
     margin-left: 200px;
     margin-top: 15px;
@@ -2074,9 +2018,9 @@ select{
   }
 
   .about-content3 p {
-    font-size: 15px; 
-    display: inline; 
-    float:left; 
+    font-size: 15px;
+    display: inline;
+    float:left;
     padding-left: 110px;
     padding-right: 100px;
   }
@@ -2089,10 +2033,11 @@ select{
   }
 
   form{
-    border-radius: 10px;
+    border-radius: 30px;
     position: relative;
     margin-left: 210px;
     margin-top: 180px;
+    margin-bottom:100px;
   }
   
   input{
@@ -2101,19 +2046,24 @@ select{
     display: block;
     font-size: 15px;
     padding: 8px 30px 8px 20px;
-    border: none; 
+    border: none;
     border-radius: 5px;
   }
   
   input:focus{
     outline: none;
   }
-  
+  .black-phone{
+    position: relative;
+    width: 600;
+    height: 800;
+    transform: translate(10px,40px);
+  }
   .about-content3 button{
     /* position: absolute; */
     /* top: 0; */
     /* right: 0; */
-    width: 75px; 
+    width: 75px;
     height: 100%;
     cursor: pointer;
     border: none;
@@ -2126,10 +2076,10 @@ select{
   }
   
   .about-content3 button i{
-    color: white; 
+    color: white;
   }
   .footer p {
-    font-size: 10px; 
+    font-size: 10px;
     margin-bottom: 10px;
   }
 
@@ -2176,10 +2126,11 @@ select{
   }
 
   /* home page */
-  .index-title h1 {
+ .index-title h1 {
     font-size: 30px;
     margin-top: 100px;
-    margin-left: 10px;
+    margin-left: 5px;
+    margin-right:5px;
   }
 
   .index-title span {
@@ -2188,7 +2139,8 @@ select{
 
   .index-text p {
     font-size: 15px;
-    margin-left: 10px;
+    margin-left: 15px;
+    margin-right: 1px;
   }
 
   .hero-content .btn {
@@ -2199,14 +2151,14 @@ select{
   .image1 {
     width: 100%;
     height: 100%;
-    margin-right: 1px;
+    margin-right: 3px;
   }
 
   .here-text p {
     margin-left: -5px;
     margin-right: 20px;
     font-size: 12px;
-    text-align: left;
+    align-text: left;
   }
 
   .works-title h2 {
@@ -2222,25 +2174,35 @@ select{
   .how-blog {
     margin-top: -100px;
   }
-
-  .scrolling-wrapper {
+ .scrolling-wrapper {
     width: 1500px;
     height: 400px;
-    margin-bottom: -100px;
+    margin-bottom: -600px;
   }
-
+  
+  .ourworks-header{
+    text-align:left;
+  }
+  .ourworks-header h2{
+    font-size:42px;
+  }
+  .ourworks-header p{
+    font-size:10px;
+  }
   .column-1 {
     font-size: 15px;
   }
 
   .shape {
-    display: none; 
+    display: none;
   }
 
   .card1, .card2, .card3, .card4 {
     width: 330px;
-    height:200px; 
-    margin-bottom: 20px;      
+    height:200px;
+    margin-bottom: 20px;
+    margin-left: 22px;
+    margin-right: 11px;
   }
 
   .card1 {
@@ -2261,16 +2223,15 @@ select{
 
   .card1 .img-cover,   .card2 .img-cover,   .card3 .img-cover,   .card4 .img-cover{
     width: 330px;
-    height:200px;                
+    height:200px;
   }
-
   .wc-image1 {
     position: relative;
     border-radius: 20px;
     width: 200px;
     height: 350px;
     margin-left: 50px;
-    transform: translate(-10px, 50px);
+    transform: translate(-10px, 150px);
   }
   
   .wc-image2 {
@@ -2280,12 +2241,12 @@ select{
     width: 150px;
     height: 200px;
     border-radius: 20px;
-    transform: translate(150px,-130px);
+    transform: translate(180px, -5px);
     filter: drop-shadow(13px 9px 40px rgba(0, 0, 0, 0.25));
   }
 
   .wecreate-content-box h2 {
-    font-size: 25px;
+    font-size: 40px;
     margin-left: -335px;
     margin-top: -100px;
     margin-right: 50px;
@@ -2304,22 +2265,54 @@ select{
   .wecreate-btn {
     margin-left: -270px;
     margin-top: 520px;
-    margin-right: 80px; 
+    margin-right: 80px;
   }
-
+   
   .client-header h2 {
-    font-size: 30px;
-    margin-top: 250px;
-    margin-left: -750px;
+    font-size: 35px;
+
   }
   .client-header p {
-    font-size: 10px; 
-    margin-left: -750px;
+    font-size: 20px;
+  
+  }
+    .client-container{
+   margin-top:500px;
+   background: #FBFBFB;
+   margin-left: -10px;
+   width: 380px;
+   height: 600px;
+   padding-top:5px;
+   
   }
   .service1 img {
     display: none;
   }
-  }
+  .scrolling-wrapper{
+    margin-left: -10px;
+    margin-right: -10px;
+    width: 380px;
+    height: 800px;
+ }
+ .scrolling-wrapper::-webkit-scrollbar {
+   display: none;
+   }
+ .content-scrollbar {
+  padding: 30px;
+  margin-right: 20px;
+   }
+   #cs1 {
+    height: 220px;
+    margin-left:10px;
+    }
+    #cs4 {
+        height: 350px;
+    margin-right: 10px
+    }
+    .about-content3{
+      
+    }
+}
 /** CONTACT US PAGE **/
 
 
